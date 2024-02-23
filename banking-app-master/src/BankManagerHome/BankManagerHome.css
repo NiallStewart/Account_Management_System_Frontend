@@ -1,0 +1,34 @@
+.welcome-text {
+  background-image: url("../../public/images/shape_background.jpg");
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../../public/images/bank_background.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+#centre {
+  flex-grow: 1;
+}
+
+.nav-bar {
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(18, 2, 90, 0.8);
+  color: white;
+  text-align: right;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  margin: 0px 5px 0px 5px;
+}
+
+.nav-links:hover {
+  color: lightblue;
+}

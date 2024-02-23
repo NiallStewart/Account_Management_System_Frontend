@@ -1,0 +1,49 @@
+body {
+    background-image: url("../../public/images/login_background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+#centre {
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.nav-bar {
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(18, 2, 90, 0.8);
+    color: white;
+    text-align: right;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+}
+
+.nav-links:hover {
+    color: lightblue;
+}
+
+.card {
+    opacity: 90%;
+}
+
+.card-header {
+    background-image: url("../../public/images/triangle.jpg");
+    background-size: cover;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(18, 2, 90, 0.8);
+    color: white;
+    text-align: center;
+}

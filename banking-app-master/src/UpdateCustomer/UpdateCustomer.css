@@ -1,0 +1,12 @@
+body {
+    background-image: url("../../public/images/global_banking.jpg");
+    background-color: #cccccc;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.card-header {
+    background-image: url("../../public/images/triangle.jpg");
+    background-size: cover;
+}
